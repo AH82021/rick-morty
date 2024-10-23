@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+
+  text-align: center;
+}
+
+
+.app-title {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 76px;
+  color: khaki;
+
+
+}
+
+
+.search-container {
+ display: flex;
+ justify-content: center;
+ margin: 20px 0;
+}
+
+.search-input {
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  font-size: 1rem;
+}
